@@ -1,3 +1,4 @@
+// Reusable custom input field component with standard styling
 export default function Input({ className = "", ...props }) {
     return (
         <input

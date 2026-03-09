@@ -1,3 +1,4 @@
+// Renders a grid of review prioritization cards for an asset
 export default function AssetReviewCardsSection({ cards }) {
     return (
         <section className="bg-[#F8F8F8] px-4 py-16">

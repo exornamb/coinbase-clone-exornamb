@@ -1,5 +1,6 @@
 import { FiPlus, FiMinus } from "react-icons/fi";
 
+// Represents a single expandable/collapsible item within an FAQ section
 export default function FAQItem({ item, open, onToggle }) {
     return (
         <div className="overflow-hidden rounded-xl bg-[#F5F5F5]">

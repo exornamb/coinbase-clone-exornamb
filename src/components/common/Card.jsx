@@ -1,3 +1,4 @@
+// Reusable container component that applies standard card styling
 export default function Card({ children, className = "" }) {
     return (
         <div

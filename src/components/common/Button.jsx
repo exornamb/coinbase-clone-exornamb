@@ -1,3 +1,4 @@
+// Reusable custom button component with different styles and sizes
 export default function Button({
     children,
     variant = "primary",

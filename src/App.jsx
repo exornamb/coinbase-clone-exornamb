@@ -7,6 +7,7 @@ import SignIn from "./pages/Signin";
 import SignUp from "./pages/Signup";
 import AccountType from "./components/layout/AccountType";
 
+// Main application component that defines the routing for all pages
 export default function App() {
   return (
     <Routes>

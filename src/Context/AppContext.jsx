@@ -3,6 +3,7 @@ import { cryptoList } from "../data/crypto";
 
 const AppContext = createContext(null);
 
+// Provides global state for the application including search query and watchlist
 export function AppProvider({ children }) {
     const [query, setQuery] = useState("");
     const [watchlist, setWatchlist] = useState(() => new Set(["bitcoin", "ethereum"]));

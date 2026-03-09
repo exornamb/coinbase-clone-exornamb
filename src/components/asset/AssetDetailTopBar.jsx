@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+// Renders the top navigation bar for the Asset Detail page
 export default function AssetDetailTopBar() {
     return (
         <div className="border-b border-gray-200">

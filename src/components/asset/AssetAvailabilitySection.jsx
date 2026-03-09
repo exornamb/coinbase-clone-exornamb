@@ -1,6 +1,7 @@
 import { FiCheckCircle } from "react-icons/fi";
 import world from "../../assets/world.svg";
 
+// Displays the worldwide availability section for assets
 export default function AssetAvailabilitySection({ points }) {
     return (
         <section className="bg-black px-4 py-16 text-white">

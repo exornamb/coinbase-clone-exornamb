@@ -13,7 +13,7 @@ import {
     faqItems,
     availabilityPoints,
 } from "../data/assetDetailData";
-
+// Page to display the details, availability, and review process for listing an asset
 export default function AssetDetail() {
     const [openIndex, setOpenIndex] = useState(0);
 

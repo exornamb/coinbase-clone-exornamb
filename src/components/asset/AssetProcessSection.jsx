@@ -1,3 +1,4 @@
+// Displays the listing process steps on the Asset Detail page
 export default function AssetProcessSection({ steps }) {
     return (
         <section className="bg-[#F8F8F8] px-4 py-16">

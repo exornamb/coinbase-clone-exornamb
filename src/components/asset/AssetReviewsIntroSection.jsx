@@ -1,3 +1,4 @@
+// Displays the introductory section explaining the asset review process
 export default function AssetReviewsIntroSection() {
     return (
         <section className="bg-[#F8F8F8] px-4 py-16">

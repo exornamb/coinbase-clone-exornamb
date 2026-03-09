@@ -1,5 +1,6 @@
 import FAQItem from "../common/FAQItem";
 
+// Displays the Frequently Asked Questions (FAQ) section for an asset
 export default function AssetFaqSection({ faqItems, openIndex, setOpenIndex }) {
     return (
         <section className="bg-[#F8F8F8] px-4 py-16">

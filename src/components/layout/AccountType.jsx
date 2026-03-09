@@ -53,6 +53,7 @@ const accountTypes = [
   },
 ];
 
+// Page that allows users to select their account type during the signup process
 export default function AccountType() {
   const navigate = useNavigate();
   const [visible, setVisible] = useState(false);

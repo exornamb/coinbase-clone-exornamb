@@ -1,3 +1,4 @@
+// Displays the hero section on the Asset Detail page with the main headline and button
 export default function AssetHeroSection() {
     return (
         <section className="bg-[#F8F8F8] px-4 py-16">
