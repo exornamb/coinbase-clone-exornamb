@@ -128,37 +128,60 @@ export default function Explore() {
         <PageLayout>
         <div className="min-h-screen bg-white">
 
-            {/* ── TOP ROW ─────────────────────────────────────────────────────────── */}
-            <div className="mx-auto flex max-w-[1200px] gap-6 px-4 pt-8 pb-4">
+            {/* TOP ROW */}
+            <div className="mx-auto flex flex-row max-w-[1200px] gap-6 px-2 pt-4 pb-2">
 
             {/* LEFT: main content */}
-            <div className="flex-1 min-w-0">
-                <h1 className="text-3xl font-bold text-gray-900">Explore crypto</h1>
-                <p className="mt-1 text-sm text-gray-500">
-                Coinbase 50 Index is down{" "}
-                    <span className="inline-flex items-center gap-1 text-red-500 font-medium">
-                        <FiArrowDownLeft size={14} />
-                        1.49% (24hrs)
-                    </span>{" "}
+            <div className="flex-1 flex-row min-w-0">
+                <div className="flex items-start justify-between gap-6">
+    
+                    {/* LEFT */}
+                    <div className="min-w-0">
+                        <h1 className="text-3xl font-bold text-gray-900">
+                            Explore crypto
+                        </h1>
 
-                    <span className="ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-gray-300 text-[9px] text-white font-bold">
-                        i
-                    </span>
-                </p>
+                        <p className="mt-1 text-sm text-gray-500">
+                            Coinbase 50 Index is up{" "}
+                            <span className="inline-flex items-center gap-1 text-emerald-500 font-medium">
+                                <FiArrowUpRight size={14} />
+                                1.62% (24hrs)
+                            </span>
 
-                {/* Search */}
-                <div className="mt-4 flex items-center gap-3">
-                <div className="relative flex-1 max-w-md">
-                    <svg className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/>
-                    </svg>
-                    <input
-                    value={search}
-                    onChange={(e) => setSearch(e.target.value)}
-                    placeholder="Search for an asset"
-                    className="w-full rounded-full border border-gray-200 bg-gray-100 py-2 pl-9 pr-4 text-sm outline-none focus:border-[#0052FF] focus:bg-white"
-                    />
-                </div>
+                            <span className="ml-1 inline-flex h-4 w-4 items-center justify-center rounded-full bg-gray-300 text-[9px] text-white font-bold">
+                                i
+                            </span>
+                        </p>
+                    </div>
+
+
+                    {/* RIGHT SEARCH */}
+                    <div className="w-100 max-w-xl">
+                        <div className="relative">
+                            
+                            <svg
+                                className="absolute left-4 top-1/2 -translate-y-1/2 text-gray-400"
+                                width="18"
+                                height="18"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                strokeWidth="2"
+                            >
+                                <circle cx="11" cy="11" r="8"/>
+                                <path d="m21 21-4.35-4.35"/>
+                            </svg>
+
+                            <input
+                                value={search}
+                                onChange={(e)=>setSearch(e.target.value)}
+                                placeholder="Search for an asset"
+                                className="w-100 rounded-full bg-gray-100 py-3 pl-11 pr-4 text-sm outline-none focus:ring-2 focus:ring-[#0052FF]"
+                            />
+
+                        </div>
+                    </div>
+
                 </div>
 
                 
