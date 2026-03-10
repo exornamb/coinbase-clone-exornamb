@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
 import { FiArrowDownLeft, FiArrowUpRight } from "react-icons/fi";
 
-// Displays a sortable and filterable list of cryptocurrencies with their market data
+// Displays a sortable and filterable lists of cryptocurrencies with their market data
 export default function CryptoTable({ filtered, starred, toggleStar }) {
     const navigate = useNavigate();
 
